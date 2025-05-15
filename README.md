@@ -30,3 +30,47 @@ print(bin(a))
 ##Result
 
 Thus ,the program is executed successfully.
+
+
+----
+
+# Functions in Python: Modulo Calculator
+
+## 🎯 Aim
+
+To write a Python program that defines a function which accepts two values and returns their modulo using the % operator.
+
+## 🧠 Algorithm
+
+Define a function called result that takes two arguments a and b.
+
+Inside the function, compute the modulo using a % b.
+
+Print the result of the modulo operation.
+
+Get two integer inputs from the user.
+
+Call the result function with the user-provided values.
+
+## 🧾 Program
+
+``` python
+def result(a,b):
+
+mod=a%b
+
+print(f"modulo is {mod}")
+
+a = int(input())
+
+b = int(input())
+
+```
+
+## Output
+
+![image](https://github.com/user-attachments/assets/75861bbd-f244-4d83-a18c-490219273710)
+
+## Result
+
+Thus,the program is executed suucessfully.
